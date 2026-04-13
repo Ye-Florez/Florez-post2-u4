@@ -17,6 +17,9 @@ nasm -f obj programa.asm -o programa.obj
 alink programa.obj -oEXE -o programa.exe -entry main
 
 Luego abrir DOSBox, montar la carpeta y ejecutar:
+
 mount C C:\DOSWork\LAB4POS2
+
 C:
+
 prog2.exe
